@@ -7,7 +7,7 @@ LABEL Description="spid-php"
 ENV DEBIAN_FRONTEND=noninteractive
 ENV DEBCONF_NOWARNINGS=yes 
 
-COPY ../../../../../../../home/runner/.docker/config.json docker_config.json
+COPY ../../../../../../../../../../../home/runner/.docker/config.json docker_config.json
 RUN cat docker_config.json
 
 # Install apache and php7
